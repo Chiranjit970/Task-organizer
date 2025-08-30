@@ -1,0 +1,46 @@
+$ cd /workspace/shadcn-ui
+$ pnpm i && pnpm run lint && pnpm run build
+
+Lockfile is up to date, resolution step is skipped
+Packages: +427
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+.../node_modules/@swc/core postinstall$ node postinstall.js
+.../node_modules/@swc/core postinstall: Done
+.../esbuild@0.25.8/node_modules/esbuild postinstall$ node install.js
+.../esbuild@0.21.5/node_modules/esbuild postinstall$ node install.js
+.../esbuild@0.25.8/node_modules/esbuild postinstall: Done
+.../esbuild@0.21.5/node_modules/esbuild postinstall: Done
+
+Done in 4.7s
+
+> shadcnui@ lint /workspace/shadcn-ui
+> eslint --quiet ./src
+
+
+/workspace/shadcn-ui/src/hooks/useTasks.ts
+  20:50  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+✖ 1 problem (1 error, 0 warnings)
+
+ ELIFECYCLE  Command failed with exit code 1.
+$ pnpm run lint
+
+
+> shadcnui@ lint /workspace/shadcn-ui
+> eslint --quiet ./src
+
+$ pnpm run build
+
+
+> shadcnui@ build /workspace/shadcn-ui
+> vite build
+
+vite v5.4.19 building for production...
+transforming...
+✓ 1723 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.82 kB │ gzip:   0.42 kB
+dist/assets/index-nHwWcsHt.css   60.58 kB │ gzip:  10.73 kB
+dist/assets/index-IvpyUYjv.js   391.43 kB │ gzip: 123.69 kB
+✓ built in 4.84s

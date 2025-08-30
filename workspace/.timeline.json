@@ -1,0 +1,99 @@
+{
+  "timeline_index": 37,
+  "planner": {
+    "Team Leader": {
+      "1": {
+        "task_id": "1",
+        "dependent_task_ids": [],
+        "instruction": "Push the complete task organizer app code from /workspace/shadcn-ui to the GitHub repository at https://github.com/Chiranjit970/Task-organizer. This includes all source files, components, utilities, and build configurations created by Alex for the task organizer application.",
+        "task_type": "general",
+        "code": "",
+        "result": "",
+        "is_success": false,
+        "is_finished": true,
+        "assignee": "David",
+        "start_at": 1756550035.7485383,
+        "end_at": 1756550907.355097
+      },
+      "current_task_id": "1"
+    },
+    "Data Analyst": {
+      "1": {
+        "task_id": "1",
+        "dependent_task_ids": [],
+        "instruction": "Navigate to the shadcn-ui directory and initialize Git repository, then add all files and commit them.",
+        "task_type": "other",
+        "code": "",
+        "result": "",
+        "is_success": false,
+        "is_finished": true,
+        "assignee": "David",
+        "start_at": 1756550848.7464752,
+        "end_at": 1756550867.580229
+      },
+      "current_task_id": "2",
+      "2": {
+        "task_id": "2",
+        "dependent_task_ids": [
+          "1"
+        ],
+        "instruction": "Add the remote GitHub repository and push the code to https://github.com/Chiranjit970/Task-organizer.",
+        "task_type": "other",
+        "code": "",
+        "result": "",
+        "is_success": false,
+        "is_finished": true,
+        "assignee": "David",
+        "start_at": 1756550867.5802526,
+        "end_at": 1756550891.3215716
+      }
+    }
+  },
+  "gallery_last_file": {},
+  "timeline_status": {
+    "1": 1,
+    "2": 1,
+    "3": 1,
+    "4": 1,
+    "5": 1,
+    "6": 1,
+    "7": 1,
+    "8": 1,
+    "9": 1,
+    "10": 1,
+    "11": 1,
+    "12": 1,
+    "13": 1,
+    "14": 1,
+    "15": 1,
+    "16": 1,
+    "17": 1,
+    "18": 1,
+    "19": 1,
+    "20": 1,
+    "21": 1,
+    "22": 1,
+    "23": 1,
+    "24": 1,
+    "25": 1,
+    "26": 1,
+    "27": 1,
+    "28": 1,
+    "29": 1,
+    "30": 1,
+    "31": 1,
+    "32": 1,
+    "33": 1,
+    "34": 1,
+    "35": 1,
+    "36": 1,
+    "37": 1
+  },
+  "preview_servers": {},
+  "preview_server": {
+    "project_dir": "/workspace/shadcn-ui",
+    "status": "initializing",
+    "config_path": ".mgx/config.yaml",
+    "timeline_index": 3
+  }
+}
